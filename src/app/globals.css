@@ -19,3 +19,129 @@ h3,
 h4 {
   font-family: "Orbitron", sans-serif;
 }
+
+.neon-text-blue {
+  text-shadow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-blue);
+  color: var(--neon-blue);
+}
+
+.neon-text-coral {
+  text-shadow: 0 0 5px var(--neon-coral), 0 0 10px var(--neon-coral);
+  color: var(--neon-coral);
+}
+
+a:hover.neon-text-blue-hover {
+  color: var(--neon-blue);
+  text-shadow: 0 0 5px var(--neon-blue), 0 0 10px var(--neon-blue);
+}
+
+a:hover.neon-text-coral-hover {
+  color: var(--neon-coral);
+  text-shadow: 0 0 5px var(--neon-coral), 0 0 10px var(--neon-coral);
+}
+
+.neon-border-blue {
+  box-shadow: 0 0 10px var(--neon-blue), inset 0 0 10px var(--neon-blue);
+  border: 1px solid var(--neon-blue);
+}
+
+.neon-border-coral {
+  box-shadow: 0 0 10px var(--neon-coral), inset 0 0 10px var(--neon-coral);
+  border: 1px solid var(--neon-coral);
+}
+
+.glow-on-hover:hover {
+  box-shadow: 0 0 15px var(--neon-blue);
+}
+
+.tech-tag:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px currentColor;
+}
+
+.project-card:hover {
+  transform: translateY(-10px) rotateX(10deg);
+  box-shadow: 0 20px 30px rgba(0, 240, 255, 0.3);
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255, 0, 240, 0.3);
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--neon-blue);
+  box-shadow: 0 0 10px var(--neon-blue);
+}
+
+.input-glow:focus {
+  box-shadow: 0 0 10px var(--neon-blue);
+  border-color: var(--neon-blue);
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neon-blue);
+  border-radius: 4px;
+}
+
+/* Hamburger menu animation */
+.hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Terminal typing effect */
+.terminal-cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
