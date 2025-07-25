@@ -1,6 +1,11 @@
+"use client"
+
+import { useSmoothScroll } from "@/hooks/useSmoothScroll"
 import MobileMenuToggle from "./MobileMenuToggle"
 
 export default function Header() {
+  useSmoothScroll()
+
   return (
     <>
       <header>
