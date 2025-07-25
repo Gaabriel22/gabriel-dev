@@ -9,9 +9,9 @@ export default function IntegrationAutomationIcon({ className = "" }) {
       viewBox="0 0 24 24"
       stroke="currentColor"
     >
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 14H4v7h7" />
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 10h3V3h-7" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 14H4v7h7" />
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 10h3V3h-7" />
     </svg>
   )
 }
