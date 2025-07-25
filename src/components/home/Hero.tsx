@@ -1,4 +1,5 @@
 import Image from "next/image"
+import TerminalTyping from "./TerminalTyping"
 
 export default function Hero() {
   return (
@@ -19,11 +20,7 @@ export default function Hero() {
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
               <div className="font-mono">
-                <p>
-                  <span className="text-green-400"></span>
-                  <span className="terminal-text"></span>
-                  <span className="terminal-cursor"></span>
-                </p>
+                <TerminalTyping />
               </div>
             </div>
 
