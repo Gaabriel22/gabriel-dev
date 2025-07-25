@@ -1,3 +1,5 @@
+import MobileMenuToggle from "./MobileMenuToggle"
+
 export default function Header() {
   return (
     <>
@@ -38,7 +40,7 @@ export default function Header() {
 
           {/* Mobile Menu */}
           <div id="mobile-menu" className="hidden md:hidden bg-black bg-opacity-90 w-full px-6 py-4">
-            <div>
+            <div className="flex flex-col gap-4">
               <a href="#home" className="text-white neon-text-blue-hover transition">
                 Home
               </a>
@@ -58,6 +60,8 @@ export default function Header() {
           </div>
         </nav>
       </header>
+
+      <MobileMenuToggle />
     </>
   )
 }
