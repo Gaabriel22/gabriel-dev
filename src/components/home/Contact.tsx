@@ -48,8 +48,9 @@ export default function Contact() {
                   <select
                     id="subject"
                     className="input-glow w-full px-4 py-3 bg-black bg-opacity-50 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
+                    defaultValue=""
                   >
-                    <option value="" selected disabled>
+                    <option value="" disabled>
                       Selecione o assunto
                     </option>
                     <option value="project">Novo Projeto</option>
