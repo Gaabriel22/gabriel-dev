@@ -10,7 +10,8 @@ body {
   font-family: "JetBrains Mono", monospace;
   background-color: var(--dark-bg);
   color: #fff;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 h1,
