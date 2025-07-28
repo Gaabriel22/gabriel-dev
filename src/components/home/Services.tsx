@@ -1,9 +1,14 @@
+"use client"
+
+import { useScrollReveal } from "@/hooks/useScrollReveal"
 import CheckIcon from "../icons/CheckIcon"
 import IntegrationAutomationIcon from "../icons/IntegrationAutomationIcon"
 import MaintenanceOptimizationIcon from "../icons/MaintenanceOptimizationIcon"
 import MonitorIcon from "../icons/MonitorIcon"
 
 export default function Services() {
+  useScrollReveal()
+
   return (
     <>
       <section id="services" className="py-20 bg-black bg-opacity-50">

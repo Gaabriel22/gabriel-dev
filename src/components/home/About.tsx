@@ -1,4 +1,10 @@
+"use client"
+
+import { useScrollReveal } from "@/hooks/useScrollReveal"
+
 export default function About() {
+  useScrollReveal
+
   return (
     <>
       <section id="about" className="py-20 bg-black bg-opacity-50">

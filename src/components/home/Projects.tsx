@@ -4,6 +4,7 @@ import { useState } from "react"
 import ProjectModal from "../common/ProjectModal"
 import Image from "next/image"
 import ArrowRightIcon from "../icons/ArrowRightIcon"
+import { useScrollReveal } from "@/hooks/useScrollReveal"
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState<null | {
@@ -13,6 +14,8 @@ export default function Projects() {
     siteUrl: string
     imageUrl: string
   }>(null)
+
+  useScrollReveal()
 
   return (
     <>
