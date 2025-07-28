@@ -1,4 +1,4 @@
-# Gabriel Dev - Portfolio Next.js
+# Gabriel Dev - Portfolio
 
 Este é o repositório do site/portfólio pessoal do Gabriel, desenvolvido em Next.js 15 com Tailwind CSS e TypeScript.
 
