@@ -1,10 +1,12 @@
 import Image from "next/image"
 import TerminalTyping from "./TerminalTyping"
+import ParticlesBackground from "./ParticlesBackground"
 
 export default function Hero() {
   return (
     <>
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+        <ParticlesBackground />
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 flex flex-col space-y-8">
             <h1 className="text-4xl md:text-6xl font-bold leading-tight">
