@@ -21,7 +21,7 @@ export default function Contact() {
               <form action="https://formsubmit.co/gabrielvieira2205@gmail.com" method="POST" className="space-y-6">
                 {/* Anti-spam e configurações extras */}
                 <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="/thankyou" />
+                <input type="hidden" name="_next" value="https://gabrielamaral.vercel.app/thankyou" />
                 <input type="text" name="_honey" style={{ display: "none" }} />
 
                 <div>
