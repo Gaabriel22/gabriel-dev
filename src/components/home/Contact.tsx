@@ -18,12 +18,18 @@ export default function Contact() {
 
           <div className="flex flex-col lg:flex-row gap-12">
             <div className="lg:w-1/2">
-              <form className="space-y-6">
+              <form action="https://formsubmit.co/gabrielvieira2205@gmail.com" method="POST" className="space-y-6">
+                {/* Anti-spam e configurações extras */}
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="/thankyou" />
+                <input type="text" name="_honey" style={{ display: "none" }} />
+
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
                     Seu Nome
                   </label>
                   <input
+                    name="name"
                     type="text"
                     id="name"
                     className="input-glow w-full px-4 py-3 bg-black bg-opacity-50 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
@@ -35,6 +41,7 @@ export default function Contact() {
                     Email
                   </label>
                   <input
+                    name="email"
                     type="email"
                     id="email"
                     className="input-glow w-full px-4 py-3 bg-black bg-opacity-50 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
@@ -46,6 +53,7 @@ export default function Contact() {
                     Assunto
                   </label>
                   <select
+                    name="subject"
                     id="subject"
                     className="input-glow w-full px-4 py-3 bg-black bg-opacity-50 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
                     defaultValue=""
@@ -65,6 +73,7 @@ export default function Contact() {
                     Mensagem
                   </label>
                   <textarea
+                    name="message"
                     id="message"
                     rows={5}
                     className="input-glow w-full px-4 py-3 bg-black bg-opacity-50 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
