@@ -28,20 +28,21 @@ export default function Services() {
               </div>
               <h3 className="text-xl font-bold mb-3">Desenvolvimento Full-Stack</h3>
               <p className="space-y-2 mb-2 text-gray-400">
-                Aplicações full stack completas, do front ao back, com deploy em nuvem e integração contínua.
+                Criação de sistemas web completos, desde o layout até o funcionamento interno, prontos para funcionar na
+                internet com segurança e escalabilidade.
               </p>
               <ul className="space-y-2 text-gray-400">
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 text-blue-400" />
-                  React, Next.js ou Angular
+                  Sites rápidos e responsivos com React ou Next.js
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 text-blue-400" />
-                  Node.js com Express ou Nest.js
+                  Funcionalidades robustas com Node.js e Express
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 text-blue-400" />
-                  Bancos SQL e NoSQL
+                  Estrutura de dados com bancos relacionais e em nuvem
                 </li>
               </ul>
             </div>
@@ -53,21 +54,21 @@ export default function Services() {
               </div>
               <h3 className="text-xl font-bold mb-3">Manutenção & Otimização de Sistemas</h3>
               <p className="space-y-2 mb-2 text-gray-400">
-                Correção de bugs, melhorias incrementais e otimização de performance para garantir que sua aplicação
-                continue estável, rápida e eficiente.
+                Mantenha sua aplicação sempre rápida, estável e pronta para crescer. Corrijo erros, melhoro a
+                performance e atualizo o sistema com boas práticas.
               </p>
               <ul className="space-y-2 text-gray-400">
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 text-red-400" />
-                  Diagnóstico e correção de erros
+                  Correção de bugs e falhas
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 text-red-400" />
-                  Refatoração e boas práticas
+                  Reestruturação de código antigo
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 text-red-400" />
-                  Melhoria de performance e SEO
+                  Melhorias de velocidade, SEO e usabilidade
                 </li>
               </ul>
             </div>
@@ -79,20 +80,21 @@ export default function Services() {
               </div>
               <h3 className="text-xl font-bold mb-3">Integrações & Automação de Processos</h3>
               <p className="space-y-2 mb-2 text-gray-400">
-                Criação de integrações com APIs de terceiros e automação de fluxos manuais para acelerar o seu negócio.
+                Automatize tarefas e conecte sistemas. Integro ferramentas externas pra que seu site ou sistema trabalhe
+                por você
               </p>
               <ul className="space-y-2 text-gray-400">
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 text-blue-400" />
-                  Integração com APIs REST
+                  Conexão com APIs e plataformas externas
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 text-blue-400" />
-                  Webhooks e serviços externos
+                  Automatização de tarefas repetitivas
                 </li>
                 <li className="flex items-center">
                   <CheckIcon className="mr-2 text-blue-400" />
-                  Automatização com Make (Integromat), Zapier e afins
+                  Integrações com Make (Integromat), n8n e afins
                 </li>
               </ul>
             </div>

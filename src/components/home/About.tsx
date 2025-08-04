@@ -40,7 +40,8 @@ export default function About() {
                   <h4 className="text-xl font-bold text-white">Auxiliar de TI</h4>
                   <p className="text-gray-400">Super Mercado Castanha - 2024-2025</p>
                   <p className="text-gray-300 mt-2">
-                    Primeira experiência profissional desenvolvendo aplicações web e desktop.
+                    Desenvolvimento e manutenção de ferramentas internas em ambiente real, com foco em automação de
+                    processos, organização de dados e suporte técnico.
                   </p>
                 </div>
               </div>

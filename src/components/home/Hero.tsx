@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
 
             <p className="text-gray-300 text-lg">
-              Soluções digitais personalizadas com tecnologias modernas e arquitetura robusta.
+              Aplicações web modernas com performance, escalabilidade e código limpo.
             </p>
 
             <div className="flex space-x-4">

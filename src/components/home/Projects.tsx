@@ -73,7 +73,7 @@ export default function Projects() {
                       setSelectedProject({
                         title: "Flowentic",
                         description:
-                          "Site institucional moderno para Flowentic — soluções personalizadas de automação empresarial, focado em eficiência e crescimento sustentável.",
+                          "Site institucional moderno para uma empresa de automação empresarial, com foco em responsividade, identidade visual e performance.",
                         githubUrl: "https://github.com/Gaabriel22/flowentic",
                         siteUrl: "https://flowentic.vercel.app/",
                         imageUrl: "/images/flowentic.png",
